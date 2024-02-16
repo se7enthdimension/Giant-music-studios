@@ -215,7 +215,7 @@ button {
     width: 100%;
     float: left;
     background-image: url(../images/banner-bg.png);
-    height: auto;
+    height: 100vh;
     background-size: 100%;
     background-repeat: no-repeat;
 }
@@ -955,3 +955,10 @@ input.mail_bt::placeholder {
 
 
 /* copyright section end */
+
+/* about us */
+
+.aboutUs {
+    text-align: center;
+    font-size: 2em;
+}
