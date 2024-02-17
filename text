@@ -36,6 +36,7 @@
       <link rel="stylesoeet" href="css/owl.theme.default.min.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
    </head>
+   
    <body>
       <!-- banner bg main start -->
       <div class="banner_bg_main">
@@ -61,7 +62,7 @@
                      <a href="index.html">Home</a>
                      <a href="#">Songs</a>
                      <a href="#">Top 10</a>
-                     <a href="#contact">Contact Us</a>
+                     <a href="#">Contact Us</a>
                   </div>
                   <span class="toggle_icon" onclick="openNav()"><img src="images/toggle-icon.png"></span>
                  
@@ -105,7 +106,7 @@
                         <div class="row">
                            <div class="col-sm-12">
                               <h1 class="banner_taital">Contact us <br>and be heard around the world</h1>
-                              <div class="buynow_bt"><a href="#contact">Contact us</a></div>
+                              <div class="buynow_bt"><a href="#">Contact us</a></div>
                            </div>
                         </div>
                      </div>
@@ -116,58 +117,57 @@
          <!-- banner section end -->
       </div>
       <!-- banner bg main end -->
-    
-    <!-- About Us section start -->
-    <div class="fashion_section">
-      <div id="electronic_main_slider" class="carousel slide" data-ride="carousel">
-         <div class="carousel-inner">
-            <div class="carousel-item active">
-               <div class="container">
-                  <h1 class="fashion_taital">About Us</h1>
-                  <p class="aboutUs">We are a record label located in chilanga</p>
-                  <div class="fashion_section_2">
-                     <div class="row">
-                        <div class="col-lg-4 col-sm-4">
-                           <div class="box_main">
-                              <h4 class="shirt_text">Beat making</h4>
-                              <p class="price_text">At only<span style="color: #262626;"> k200</span></p>
-                              <div class="electronic_img"><img src="images/feliphe-schiarolli-oeHaXN3WiLk-unsplash.jpg"></div>
-                              <div class="btn_main">
+      
+      <!-- About Us section start -->
+      <div class="fashion_section">
+         <div id="electronic_main_slider" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+               <div class="carousel-item active">
+                  <div class="container">
+                     <h1 class="fashion_taital">About Us</h1>
+                     <p class="aboutUs">We are a record label located in chilanga</p>
+                     <div class="fashion_section_2">
+                        <div class="row">
+                           <div class="col-lg-4 col-sm-4">
+                              <div class="box_main">
+                                 <h4 class="shirt_text">Beat making</h4>
+                                 <p class="price_text">At only<span style="color: #262626;"> k200</span></p>
+                                 <div class="electronic_img"><img src="images/feliphe-schiarolli-oeHaXN3WiLk-unsplash.jpg"></div>
+                                 <div class="btn_main">
+                                    
+                                    <div class="buynow_bt"><a href="#contact">Contact Us</a></div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-4 col-sm-4">
+                              <div class="box_main">
+                                 <h4 class="shirt_text">Recording</h4>
+                                 <p class="price_text">At only<span style="color: #262626;"> k200</span></p>
+                                 <div class="electronic_img"><img src="images/willspirit-l-n-ZEfmWH1nr5Q-unsplash.jpg"></div>
+                                 <div class="btn_main">
+                                   
+                                    <div class="buynow_bt"><a href="#contact">Contact Us</a></div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-4 col-sm-4">
+                              <div class="box_main">
+                                 <h4 class="shirt_text">Music Upload</h4>
+                                 <p class="price_text">At only<span style="color: #262626;"> k20</span></p>
+                                 <div class="electronic_img"><img src="images/fernando-lavin-YDdZ6nbGS24-unsplash.jpg"></div>
+                                 <div class="btn_main">
                                  
-                                 <div class="buynow_bt"><a href="#contact">Contact Us</a></div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-4">
-                           <div class="box_main">
-                              <h4 class="shirt_text">Recording</h4>
-                              <p class="price_text">At only<span style="color: #262626;"> k200</span></p>
-                              <div class="electronic_img"><img src="images/willspirit-l-n-ZEfmWH1nr5Q-unsplash.jpg"></div>
-                              <div class="btn_main">
-                                
-                                 <div class="buynow_bt"><a href="#contact">Contact Us</a></div>
-                              </div>
-                           </div>
-                        </div>
-                        <div class="col-lg-4 col-sm-4">
-                           <div class="box_main">
-                              <h4 class="shirt_text">Music Upload</h4>
-                              <p class="price_text">At only<span style="color: #262626;"> k20</span></p>
-                              <div class="electronic_img"><img src="images/fernando-lavin-YDdZ6nbGS24-unsplash.jpg"></div>
-                              <div class="btn_main">
-                              
-                                 <div class="buynow_bt"><a href="#contact">Contact Us</a></div>
+                                    <div class="buynow_bt"><a href="#contact">Contact Us</a></div>
+                                 </div>
                               </div>
                            </div>
                         </div>
                      </div>
                   </div>
                </div>
-            </div>
-                    </div>
-   </div>
-   <!-- About us section end -->
-
+                       </div>
+      </div>
+      <!-- About us section end -->
       <!-- team  section start -->
       <div class="jewellery_section">
          <h1 class="fashion_taital">Latest Songs</h1>
@@ -175,6 +175,47 @@
             <div class="carousel-inner">
                <div class="carousel-item active">
                   <div class="container">
+                     <div class="fashion_section_2">
+                        <div class="row">
+                           <div class="col-lg-4 col-sm-4">
+                              <div class="box_main">
+                                 <h4 class="shirt_text">Song</h4>
+                                 <p class="price_text">artist name</span></p>
+                                 <div class="jewellery_img"><img src="images/player.jpg"></div>
+                                 <div class="btn_main">
+                                    <div class="buynow_bt"><a href="#">Play</a></div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-4 col-sm-4">
+                              <div class="box_main">
+                                 <h4 class="shirt_text">Song</h4>
+                                 <p class="price_text">artist name</span></p>
+                                 <div class="jewellery_img"><img src="images/player.jpg"></div>
+                                 <div class="btn_main">
+                                    <div class="buynow_bt"><a href="#">Play</a></div>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-4 col-sm-4">
+                              <div class="box_main">
+                                 <h4 class="shirt_text">Song</h4>
+                                 <p class="price_text">artist name</span></p>
+                                 <div class="jewellery_img"><img src="images/player.jpg"></div>
+                                 <div class="btn_main">
+                                    <div class="buynow_bt"><a href="#">Play</a></div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+
+               
+               <div class="carousel-item">
+                  <div class="container">
+                     
                      <div class="fashion_section_2">
                         <div class="row">
                            <div class="col-lg-4 col-sm-4">
@@ -250,27 +291,33 @@
                      </div>
                   </div>
                </div>
+               </div>
             </div>
-       
-            <div class="contact-form" id="contact">
-               <h2>Contact Us</h2>
-               <form id="contact-form">
-                   <input type="text" id="name" placeholder="Your Name" required>
-                   <input type="email" id="email" placeholder="Your Email" required>
-                   <textarea id="message" placeholder="Your Message" required></textarea>
-                   <button type="button" onclick="sendMessage()">Send Message</button>
-               </form>
-           </div>
+            <a class="carousel-control-prev" href="#jewellery_main_slider" role="button" data-slide="prev">
+            <i class="fa fa-angle-left"></i>
+            </a>
+            <a class="carousel-control-next" href="#jewellery_main_slider" role="button" data-slide="next">
+            <i class="fa fa-angle-right"></i>
+            </a>
+
+
+    <div class="contact-form" id="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="button" onclick="sendMessage()">Send Message</button>
+        </form>
+    </div>
+
+   
+   
+            
          </div>
       </div>
       <!-- jewellery  section end -->
-
-    
- 
-    
-      
-      
-      
+      <!-- footer section start -->
       <div class="footer_section layout_padding">
          <div class="container">
             <div class="footer_logo"><a href="index.html"><img src="images/footer-logo.png"></a></div>
@@ -304,16 +351,6 @@
       <!-- sidebar -->
       <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
       <script src="js/custom.js"></script>
-      <script>
-         function openNav() {
-           document.getElementById("mySidenav").style.width = "250px";
-         }
-         
-         function closeNav() {
-           document.getElementById("mySidenav").style.width = "0";
-         }
-      </script>
-
       <script>
          function openNav() {
            document.getElementById("mySidenav").style.width = "250px";
