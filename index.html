@@ -36,6 +36,7 @@
       <link rel="stylesoeet" href="css/owl.theme.default.min.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
    </head>
+   
    <body>
       <!-- banner bg main start -->
       <div class="banner_bg_main">
@@ -304,9 +305,21 @@
             <a class="carousel-control-next" href="#jewellery_main_slider" role="button" data-slide="next">
             <i class="fa fa-angle-right"></i>
             </a>
-            <div class="loader_main">
-               <div class="loader"></div>
-            </div>
+
+
+    <div class="contact-form">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="Your Email" required>
+            <textarea id="message" placeholder="Your Message" required></textarea>
+            <button type="button" onclick="sendMessage()">Send Message</button>
+        </form>
+    </div>
+
+   
+   
+            
          </div>
       </div>
       <!-- jewellery  section end -->
@@ -352,6 +365,36 @@
          function closeNav() {
            document.getElementById("mySidenav").style.width = "0";
          }
+
+   
+            function sendMessage() {
+                var name = document.getElementById('name').value;
+                var email = document.getElementById('email').value;
+                var message = document.getElementById('message').value;
+                
+                // Email addresses to send the message to
+                var to = [
+                    'Treasurearthur4@gmail.com',
+                    'masmusicofficial@gmail.com'
+                ];
+                
+                // Subject and body of the email
+                var subject = 'New Message from Contact Form';
+                var body = "Name: " + name + "\nEmail: " + email + "\nMessage: " + message;
+    
+                // Sending email using mailto link
+                var mailtoLink = 'mailto:' + to.join(',') + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+                window.location.href = mailtoLink;
+            }
+
+            // Wait for the entire page to load
+window.addEventListener('load', function() {
+   // When the page is fully loaded, show the content and hide the loader
+   document.body.style.display = 'block';
+   document.getElementById('loader').style.display = 'none';
+ });
+     
+    
       </script>
    </body>
 </html>
