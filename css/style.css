@@ -989,6 +989,7 @@ input.mail_bt::placeholder {
     font-size: 2em;
 }
 
+
  .card {
     width: 30%;
     margin-bottom: 20px;
@@ -1007,9 +1008,13 @@ input.mail_bt::placeholder {
     display: block;
     margin: 10px auto;
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color:#111;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
+  }
+
+  .play-button:hover, .download-button:hover, .like-button:hover {
+    background-color: green;
   }
