@@ -257,7 +257,7 @@ button {
 }
 
 .custom_menu li a:hover {
-    color: #f26522;
+    color: green;
 }
 
 
@@ -319,7 +319,7 @@ button {
 }
 
 .sidenav a:hover {
-    color: #f26522;
+    color: green;
 }
 
 .sidenav .closebtn {
@@ -438,7 +438,7 @@ button {
 }
 
 .login_menu li a:hover {
-    color: #f26522;
+    color: green;
 }
 
 .padding_10 {
@@ -487,7 +487,7 @@ button {
 }
 
 .buynow_bt a:hover {
-    background-color: #f26522;
+    background-color: green;
     color: #ffffff;
 }
 
@@ -565,7 +565,7 @@ button {
 .price_text {
     width: 100%;
     font-size: 16px;
-    color: #f26522;
+    color: green;
     text-align: center;
     margin: 0px;
 }
@@ -590,7 +590,7 @@ button {
 .buy_bt a {
     width: 100%;
     font-size: 16px;
-    color: #f26522;
+    color: green;
     background-color: transparent;
     text-align: right;
     font-weight: bold;
@@ -617,7 +617,7 @@ button {
 
 .seemore_bt a:hover {
     background-color: transparent;
-    color: #f26522;
+    color: green;
 }
 
 #main_slider a.carousel-control-next {
@@ -645,7 +645,7 @@ button {
 #main_slider .carousel-control-prev:focus,
 #main_slider .carousel-control-prev:hover {
     color: #fff;
-    background-color: #f26522;
+    background-color: green;
 }
 
 
@@ -686,7 +686,7 @@ button {
 #electronic_main_slider .carousel-control-prev:focus,
 #electronic_main_slider .carousel-control-prev:hover {
     color: #fff;
-    background-color: #f26522;
+    background-color: green;
 }
 
 
@@ -733,7 +733,7 @@ button {
 #jewellery_main_slider .carousel-control-prev:focus,
 #jewellery_main_slider .carousel-control-prev:hover {
     color: #fff;
-    background-color: #f26522;
+    background-color: green;
 }
 
 
@@ -749,9 +749,9 @@ button {
     border: 16px solid #f3f3f3;
     border-radius: 50%;
     border-top: 16px solid #414744;
-    border-right: 16px solid #f26522;
+    border-right: 16px solid green;
     border-bottom: 16px solid #414744;
-    border-left: 16px solid #f26522;
+    border-left: 16px solid green;
     width: 120px;
     height: 120px;
     -webkit-animation: spin 2s linear infinite;
@@ -820,7 +820,8 @@ button {
     display: block;
     width: 100%;
     padding: 10px;
-    background-color: #007bff;
+    background-color:#111;
+    transition: 0.2s;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -829,7 +830,7 @@ button {
 }
 
 .contact-form button:hover {
-    background-color: #0056b3;
+    background-color: green;
 }
 
 
@@ -878,7 +879,7 @@ input.mail_bt::placeholder {
     width: 30%;
     float: right;
     font-size: 16px;
-    color: #f26522;
+    color: green;
     background-color: transparent;
     padding: 20px 0px 5px 0px;
     border-radius: 30px;
@@ -888,7 +889,7 @@ input.mail_bt::placeholder {
 }
 
 .subscribe_bt a {
-    color: #f26522;
+    color: green;
 }
 
 .subscribe_bt a:hover {
@@ -919,7 +920,7 @@ input.mail_bt::placeholder {
 }
 
 .footer_menu li a:hover {
-    color: #f26522;
+    color: green;
 }
 
 .location_main {
@@ -941,7 +942,7 @@ input.mail_bt::placeholder {
 }
 
 .location_main a:hover {
-    color: #f26522;
+    color: green;
 }
 
 
@@ -971,7 +972,7 @@ input.mail_bt::placeholder {
 }
 
 .copyright_text a:hover {
-    color: #f26522;
+    color: green;
 }
 
 .margin_top90 {
