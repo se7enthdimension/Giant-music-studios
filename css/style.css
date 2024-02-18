@@ -1018,3 +1018,9 @@ input.mail_bt::placeholder {
   .play-button:hover, .download-button:hover, .like-button:hover {
     background-color: green;
   }
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
