@@ -27,6 +27,9 @@
       <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
       <!-- fonts -->
       <link href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap" rel="stylesheet">
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
       <!-- font awesome -->
       <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
       <!--  -->
@@ -35,83 +38,48 @@
       <link rel="stylesheet" href="css/owl.carousel.min.css">
       <link rel="stylesoeet" href="css/owl.theme.default.min.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
-  
       <style>
-          h1 {
-              text-align: center;
-              color: #333;
-          }
-          .song-list {
-              list-style-type: none;
-              padding: 0;
-          }
-          .song-item {
-              margin-bottom: 10px;
-          }
-          .song-item a {
-              text-decoration: none;
-              color: #333;
-              display: block;
-              padding: 10px;
-              border-radius: 5px;
-              background-color: #f0f0f0;
-              transition: background-color 0.3s ease;
-          }
-          .song-item a:hover {
-              background-color: green;
-              color: white;
-          }
-      </style>
-     
+      h1 {
+          text-align: center;
+          color: #333;
+      }
+      .song-list {
+          list-style-type: none;
+          padding: 0;
+      }
+      .song-item {
+          margin-bottom: 10px;
+      }
+      .song-item a {
+          text-decoration: none;
+          color: #333;
+          display: block;
+          padding: 10px;
+          border-radius: 5px;
+          background-color: #f0f0f0;
+          transition: background-color 0.3s ease;
+      }
+      .song-item a:hover {
+          background-color: green;
+          color: white;
+      }
+  </style>
+   
     </head>
-   <body>
-      <!-- banner bg main start -->
-      <div class="banner_bg_main">
+    <body>
+        <!-- banner bg main start -->
+  
+           <!-- header top section start -->
+           <!-- logo section start -->
+                    <div class="col-sm-12">
+                       <div class="logo"><a href="index.html"><img src="images/giant Logo.png" style="width: 20%;" alt='LOGO'></a></div>
+                    </div>
 
-         <!-- header top section start -->
-         <!-- logo section start -->
-         <div class="logo_section">
-            <div class="wall">
-               <div class="row">
-                  <div class="col-sm-12">
-                     <div class="logo"><a href="index.html"><img src="images/giant Logo.png" style="width: 20%;" alt='LOGO'></a></div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!-- logo section end -->
-         <!-- header section start -->
-         <div class="header_section">
-            <div class="container">
-               <div class="containt_main">
-                  <div id="mySidenav" class="sidenav">
-                     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                     <a href="index.html">Home</a>
-                     <a href="songs.html">Songs</a>
-                     <a href="top.html">Top 10</a>
-                     <a href="#contact">Contact Us</a>
-                  </div>
-                  <span class="toggle_icon" onclick="openNav()"><img src="images/toggle-icon.png"></span>
-                 
-                  <div class="main">
-                     <!-- Another variation with a button -->
-                     <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Search for song/artist">
-                        <div class="input-group-append">
-                           <button class="btn btn-secondary" type="button" style="background-color: green; border-color:green ">
-                           <i class="fa fa-search"></i>
-                           </button>
-                        </div>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-         <!-- header section end -->
-               </div>
-      <!-- banner bg main end -->
-    <div class="container">
-        <h1>Top Ten List</h1>
+                    <button><a href="index.html">Home</a></button>
+     
+    
+      <div class="top">
+        <h1 style="color: white;">Top Ten List</h1>
         <ul class="song-list">
             <li class="song-item"><a href="#" onclick="playSong('Bad Guy')">Billie Eilish - Bad Guy</a></li>
             <li class="song-item"><a href="#" onclick="playSong('Shape of You')">Ed Sheeran - Shape of You</a></li>
@@ -125,88 +93,55 @@
             <li class="song-item"><a href="#" onclick="playSong('Stitches')">Shawn Mendes - Stitches</a></li>
         </ul>
     </div>
-  
-    <div class="footer_section layout_padding">
-        <div class="container">
-           <div class="footer_logo"><a href="index.html"><img src="images/giant Logo.png" style="width: 20%;" alt='logo'></a></div>
-          
-           <div class="footer_menu">
-              <ul>
-                 <li><a href="#">Mas Theproducer</a></li>
-                 <li><a href="#">Giant studio Records</a></li>
-                 <li><a href="#">Starr Animations</a></li>
-                 <li><a href="#">Home</a></li>
-        
-              </ul>
-           </div>
-           <div class="location_main">Contact us on : <a href="#">+260 97 9190522</a></div>
-        </div>
-     </div>
-     <!-- footer section end -->
-     <!-- copyright section start -->
-     <div class="copyright_section">
-        <div class="container">
-           <p class="copyright_text">© 2024 All Rights Reserved. Design by Starr</a></p>
-        </div>
-     </div>
-     <!-- copyright section end -->
-     <!-- Javascript files-->
-     <script src="js/jquery.min.js"></script>
-     <script src="js/popper.min.js"></script>
-     <script src="js/bootstrap.bundle.min.js"></script>
-     <script src="js/jquery-3.0.0.min.js"></script>
-     <script src="js/plugin.js"></script>
-     <!-- sidebar -->
-     <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-     <script src="js/custom.js"></script>
-     <script>
-        function openNav() {
-          document.getElementById("mySidenav").style.width = "250px";
-        }
-        
-        function closeNav() {
-          document.getElementById("mySidenav").style.width = "0";
-        }
-     </script>
-
-     <script>
-        function openNav() {
-          document.getElementById("mySidenav").style.width = "250px";
-        }
-        
-        function closeNav() {
-          document.getElementById("mySidenav").style.width = "0";
-        }
-
-  
-           function sendMessage() {
-               var name = document.getElementById('name').value;
-               var email = document.getElementById('email').value;
-               var message = document.getElementById('message').value;
-               
-               // Email addresses to send the message to
-               var to = [
-                   'Treasurearthur4@gmail.com',
-                   'masmusicofficial@gmail.com'
-               ];
-               
-               // Subject and body of the email
-               var subject = 'New Message from Contact Form';
-               var body = "Name: " + name + "\nEmail: " + email + "\nMessage: " + message;
-   
-               // Sending email using mailto link
-               var mailtoLink = 'mailto:' + to.join(',') + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
-               window.location.href = mailtoLink;
-           }
-
-           // Wait for the entire page to load
-window.addEventListener('load', function() {
-  // When the page is fully loaded, show the content and hide the loader
-  document.body.style.display = 'block';
-  document.getElementById('loader').style.display = 'none';
-});
     
-   
-     </script>
-  </body>
+      
+      
+      
+      <div class="footer_section layout_padding">
+         <div class="container">
+            <div class="footer_logo"><a href="index.html"><img src="images/giant Logo.png" style="width: 20%;" alt='logo'></a></div>
+           
+            <div class="footer_menu">
+               <ul>
+                  <li><a href="#">Mas Theproducer</a></li>
+                  <li><a href="#">Giant studio Records</a></li>
+                  <li><a href="#">Starr Animations</a></li>
+                  <li><a href="#">Home</a></li>
+         
+               </ul>
+            </div>
+            <div class="location_main">Contact us on : <a href="#">+260 97 9190522</a></div>
+         </div>
+      </div>
+      <!-- footer section end -->
+      <!-- copyright section start -->
+      <div class="copyright_section">
+         <div class="container">
+            <p class="copyright_text">© 2024 All Rights Reserved. Design by Starr</a></p>
+         </div>
+      </div>
+      <!-- copyright section end -->
+      <!-- Javascript files-->
+      <script src="js/app.js"></script>
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/plugin.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+      
+      <script>
+         function openNav() {
+           document.getElementById("mySidenav").style.width = "250px";
+         }
+         
+         function closeNav() {
+           document.getElementById("mySidenav").style.width = "0";
+         }
+      </script>
+
+     
+   </body>
 </html>
