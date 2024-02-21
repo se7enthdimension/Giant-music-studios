@@ -71,7 +71,7 @@
                   <div class="main">
                      <!-- Another variation with a button -->
                      <div class="input-group">
-                        <input type="text" class="form-control" placeholder="Search for song/artist">
+                        <input type="text" class="form-control" id="myInput" onkeyup="myFunction()" placeholder="Search for song/artist">
                         <div class="input-group-append">
                            <button class="btn btn-secondary" type="button" style="background-color: green; border-color:green ">
                            <i class="fa fa-search"></i>
@@ -89,7 +89,7 @@
     
       <!-- team  section start -->
      
-    <div class="music-container">
+    <!-- <div class="music-container" id="myUL">
 
       <div class="music-body">
           <div class="layer">
@@ -148,8 +148,45 @@
               </button>
           </div>
       </div>
-  </div>
+  </div> -->
 
+
+  <ul id="myUL">
+   
+      <li><a href="#">Joe Boy- better</a>
+         <audio controls>
+            <source src="songs/better.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+      </li>
+    
+
+
+
+
+   <li><a href="#">Joe Boy- oh</a>
+      <audio controls class="audioCon">
+         <source src="songs/oh.mp3" type="audio/mpeg">
+         Your browser does not support the audio element.
+     </audio>
+   </li>
+ 
+
+
+
+
+   <li><a href="#">Joe Boy- sugar mama</a>
+      <audio controls>
+         <source src="songs/sugar mama.mp3" type="audio/mpeg">
+         Your browser does not support the audio element.
+     </audio>
+   </li>
+   
+
+
+
+
+ </ul>
     
  
     
