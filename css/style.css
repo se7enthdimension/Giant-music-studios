@@ -1270,6 +1270,7 @@ input.mail_bt::placeholder {
     list-style-type: none;
     padding: 0;
     margin: 0;
+    background-color: none;
   }
   
   #myUL li a {
@@ -1289,7 +1290,7 @@ input.mail_bt::placeholder {
 
 audio {
     width: 50%;
-    background-color: rgba(0, 128, 0, 0.425);
+  background-color: black;
+  border: solid white 1px;
     margin: 10px;
-    border-radius: 20px;
 }
