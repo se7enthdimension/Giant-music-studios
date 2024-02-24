@@ -1294,3 +1294,12 @@ audio {
   border: solid white 1px;
     margin: 10px;
 }
+
+.searchBtn {
+    border: solid white 1px;
+    color: rgba(255, 255, 255, 0.651);
+    width: 100%;
+    font-size: 1.5em;
+    text-align: center;
+    border-radius: 20px;
+}
