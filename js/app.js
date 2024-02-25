@@ -1,7 +1,6 @@
- // Function to remove the loading image once the page is loaded
- function removeLoadingImage() {
+function removeLoadingImage() {
   var loadingImg = document.getElementById('loading-img');
-  loadingImg.parentNode.removeChild(loadingImg);
+  loadingImg.style.display = 'none'; // hide the image
 }
 
 // Add event listener to remove loading image when the page is fully loaded
