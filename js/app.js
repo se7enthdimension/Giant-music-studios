@@ -1,3 +1,13 @@
+ // Function to remove the loading image once the page is loaded
+ function removeLoadingImage() {
+  var loadingImg = document.getElementById('loading-img');
+  loadingImg.parentNode.removeChild(loadingImg);
+}
+
+// Add event listener to remove loading image when the page is fully loaded
+window.addEventListener('load', removeLoadingImage);
+
+
 const img = document.querySelector("#img");
 const playPause = document.querySelector("#playpause");
 const playPauseBtn = document.querySelector("#playpause-btn");
