@@ -4,6 +4,22 @@
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 9999;
+   
+    padding: 400px;
+    animation-name: anime;
+    animation-duration: 3s;
+  }
+
+  @keyframes anime {
+    from{
+        padding: 200px;
+        background: white;
+    }
+    to{
+        padding: 400px;
+        background: rgba(0, 0, 0, 0.445);
+        backdrop-filter: blur(20px);
+    }
   }
 
 
