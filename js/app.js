@@ -3,6 +3,13 @@ function removeLoadingImage() {
   loadingImg.style.display = 'none'; // hide the image
 }
 
+function downloadAudio(audioSrc, filename) {
+  var link = document.createElement('a');
+  link.href = audioSrc;
+  link.download = filename;
+  link.click();
+}
+
 // Add event listener to remove loading image when the page is fully loaded
 window.addEventListener('load', removeLoadingImage);
 
